@@ -2,12 +2,11 @@
 int main()
 {
     char c;
-    int lower, upper;
+    int lower;
     printf("Enter an alphabet: ");
     scanf("%c",&c);
     lower = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-    upper = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
-    if (lower ||upper)
+    if (lower)
     {
         printf("%c is a vowel.", c);
     }
